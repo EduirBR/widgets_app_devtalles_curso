@@ -4,9 +4,12 @@ import 'package:widgets_app/presentation/screens/screens.dart';
 
 class AppRouter {
   static List<RouteBase> routes = [
-    addRoute(path: '/', name: 'home', view: const HomeScreen()),
-    addRoute(path: '/bottons', name: 'bottons', view: const ButtonsScreen()),
-    addRoute(path: '/cards', name: 'cards', view: const CardsScreen()),
+    addRoute(path: '/', name: HomeScreen.name, view: const HomeScreen()),
+    addRoute(
+        path: '/bottons',
+        name: ButtonsScreen.name,
+        view: const ButtonsScreen()),
+    addRoute(path: '/cards', name: CardsScreen.name, view: const CardsScreen()),
   ];
 
   static GoRouter router = GoRouter(initialLocation: '/', routes: routes);
