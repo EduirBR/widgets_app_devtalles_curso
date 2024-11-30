@@ -14,6 +14,10 @@ class AppRouter {
         path: '/progress',
         name: ProgressScreen.name,
         view: const ProgressScreen()),
+    addRoute(
+        path: '/snackbars',
+        name: SnackbarScreen.name,
+        view: const SnackbarScreen()),
   ];
 
   static GoRouter router = GoRouter(initialLocation: '/', routes: routes);
