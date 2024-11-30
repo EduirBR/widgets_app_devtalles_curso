@@ -10,6 +10,10 @@ class AppRouter {
         name: ButtonsScreen.name,
         view: const ButtonsScreen()),
     addRoute(path: '/cards', name: CardsScreen.name, view: const CardsScreen()),
+    addRoute(
+        path: '/progress',
+        name: ProgressScreen.name,
+        view: const ProgressScreen()),
   ];
 
   static GoRouter router = GoRouter(initialLocation: '/', routes: routes);
