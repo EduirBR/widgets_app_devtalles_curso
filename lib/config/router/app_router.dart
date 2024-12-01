@@ -18,6 +18,10 @@ class AppRouter {
         path: '/snackbars',
         name: SnackbarScreen.name,
         view: const SnackbarScreen()),
+    addRoute(
+        path: '/animated',
+        name: AnimatedScreen.name,
+        view: const AnimatedScreen()),
   ];
 
   static GoRouter router = GoRouter(initialLocation: '/', routes: routes);

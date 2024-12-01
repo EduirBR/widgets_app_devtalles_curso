@@ -34,4 +34,9 @@ const List<MenuItem> appMenuItems = <MenuItem>[
       subTitle: 'Indicadores en pantallas',
       url: '/snackbars',
       icon: Icons.info_outline),
+  MenuItem(
+      title: 'Animaciones',
+      subTitle: 'Animacion en pantallas',
+      url: '/animated',
+      icon: Icons.check_box_outlined),
 ];
