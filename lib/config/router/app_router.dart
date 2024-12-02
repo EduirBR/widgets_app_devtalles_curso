@@ -26,6 +26,10 @@ class AppRouter {
         path: '/ui-controls',
         name: UIControlsScreen.name,
         view: const UIControlsScreen()),
+    addRoute(
+        path: '/app-tutorial',
+        name: AppTutorialScreen.name,
+        view: const AppTutorialScreen()),
   ];
 
   static GoRouter router = GoRouter(initialLocation: '/', routes: routes);
