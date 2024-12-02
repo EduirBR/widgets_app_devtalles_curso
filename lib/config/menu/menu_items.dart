@@ -39,4 +39,9 @@ const List<MenuItem> appMenuItems = <MenuItem>[
       subTitle: 'Animacion en pantallas',
       url: '/animated',
       icon: Icons.check_box_outlined),
+  MenuItem(
+      title: 'UI Controladores',
+      subTitle: 'Controles en pantallas',
+      url: '/ui-controls',
+      icon: Icons.car_rental_outlined),
 ];

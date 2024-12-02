@@ -22,6 +22,10 @@ class AppRouter {
         path: '/animated',
         name: AnimatedScreen.name,
         view: const AnimatedScreen()),
+    addRoute(
+        path: '/ui-controls',
+        name: UIControlsScreen.name,
+        view: const UIControlsScreen()),
   ];
 
   static GoRouter router = GoRouter(initialLocation: '/', routes: routes);
