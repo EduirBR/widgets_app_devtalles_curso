@@ -30,6 +30,10 @@ class AppRouter {
         path: '/app-tutorial',
         name: AppTutorialScreen.name,
         view: const AppTutorialScreen()),
+    addRoute(
+        path: '/iscroll',
+        name: InfiniteScroolScreen.name,
+        view: const InfiniteScroolScreen()),
   ];
 
   static GoRouter router = GoRouter(initialLocation: '/', routes: routes);

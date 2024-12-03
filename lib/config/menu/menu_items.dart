@@ -48,5 +48,10 @@ const List<MenuItem> appMenuItems = <MenuItem>[
       title: 'App Tutotial',
       subTitle: 'Tutorial de la app',
       url: '/app-tutorial',
-      icon: Icons.car_rental_outlined),
+      icon: Icons.accessible_rounded),
+  MenuItem(
+      title: 'Scroll Infinito y pull ',
+      subTitle: 'Listas infinitas y pull para actualizar',
+      url: '/iscroll',
+      icon: Icons.list_alt_outlined),
 ];
