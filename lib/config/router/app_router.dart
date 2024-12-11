@@ -10,6 +10,30 @@ class AppRouter {
         name: ButtonsScreen.name,
         view: const ButtonsScreen()),
     addRoute(path: '/cards', name: CardsScreen.name, view: const CardsScreen()),
+    addRoute(
+        path: '/progress',
+        name: ProgressScreen.name,
+        view: const ProgressScreen()),
+    addRoute(
+        path: '/snackbars',
+        name: SnackbarScreen.name,
+        view: const SnackbarScreen()),
+    addRoute(
+        path: '/animated',
+        name: AnimatedScreen.name,
+        view: const AnimatedScreen()),
+    addRoute(
+        path: '/ui-controls',
+        name: UIControlsScreen.name,
+        view: const UIControlsScreen()),
+    addRoute(
+        path: '/app-tutorial',
+        name: AppTutorialScreen.name,
+        view: const AppTutorialScreen()),
+    addRoute(
+        path: '/iscroll',
+        name: InfiniteScroolScreen.name,
+        view: const InfiniteScroolScreen()),
   ];
 
   static GoRouter router = GoRouter(initialLocation: '/', routes: routes);
