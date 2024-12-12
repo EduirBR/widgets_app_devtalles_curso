@@ -45,9 +45,9 @@ class _ThemeScreenBody extends ConsumerWidget {
                 style: TextStyle(color: color),
               ),
               value: index,
-              groupValue: ref.watch(selectedColor),
+              groupValue: ref.watch(selectedColorProvider),
               onChanged: (value) {
-                ref.read(selectedColor.notifier).update((v) => value!);
+                ref.read(selectedColorProvider.notifier).update((v) => value!);
               });
         });
   }
