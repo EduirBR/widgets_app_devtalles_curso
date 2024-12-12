@@ -54,4 +54,9 @@ const List<MenuItem> appMenuItems = <MenuItem>[
       subTitle: 'Listas infinitas y pull para actualizar',
       url: '/iscroll',
       icon: Icons.list_alt_outlined),
+  MenuItem(
+      title: 'Counter Screen + Riverpod',
+      subTitle: 'Pantalla contadora con riverpod',
+      url: '/counters',
+      icon: Icons.add),
 ];
