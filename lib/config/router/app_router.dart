@@ -34,6 +34,14 @@ class AppRouter {
         path: '/iscroll',
         name: InfiniteScroolScreen.name,
         view: const InfiniteScroolScreen()),
+    addRoute(
+        path: '/counters',
+        name: CounterScreen.name,
+        view: const CounterScreen()),
+    addRoute(
+        path: '/themes',
+        name: ThemeChangerScreen.name,
+        view: const ThemeChangerScreen()),
   ];
 
   static GoRouter router = GoRouter(initialLocation: '/', routes: routes);
