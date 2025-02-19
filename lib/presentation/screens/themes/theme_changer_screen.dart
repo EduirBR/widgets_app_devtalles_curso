@@ -25,9 +25,7 @@ class ThemeChangerScreen extends ConsumerWidget {
 }
 
 class _ThemeScreenBody extends ConsumerWidget {
-  const _ThemeScreenBody({
-    super.key,
-  });
+  const _ThemeScreenBody();
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
